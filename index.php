@@ -26,5 +26,10 @@
         <div id="bouled"> </div>
         <div id="bouleg"> </div>
         <div id="tige"> </div>
+
+
+
+
+        <h1> Patrick la trique </h1>
     </body>
 </html>
