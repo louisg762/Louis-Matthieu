@@ -1,3 +1,152 @@
-h1 {
-    color: green;
-}
+/*body {background-color: grey;}
+
+#tete {height: 100px; width: 100px; background-color: pink; border-radius: 100px; 
+transform: translate(200px, 0px)}
+
+#corp {height: 150px; width: 50px; background-color: green;
+ transform: translate(224px, -5px);
+ border-radius: 10px;}
+ 
+ #brasd {height: 100px; width: 25px; background-color: green;
+ transform: translate(190px, -140px) rotate(25deg);
+ border-radius: 25px;}
+
+#brasg {animation-name: taille;
+animation-duration: 4s;
+	height: 100px; width: 25px; background-color: green;
+ transform: translate(285px, -242px) rotate(150deg);
+ border-radius: 25px;}
+ 
+ #jambed {height: 150px; width: 35px; background-color: black;
+ transform: translate(210px, -220px) rotate(5deg);
+ border-radius: 25px;}
+ 
+ #jambeg {height: 150px; width: 35px; background-color: black;
+ transform: translate(260px, -370px) rotate(175deg);
+ border-radius: 25px;}
+ 
+  #shoesd {height: 15px; width: 50px; background-color: white;
+ transform: translate(190px, -385px);
+ border-radius: 25px;}
+ 
+  #shoesg {height: 15px; width: 50px; background-color: white;
+ transform: translate(265px, -400px);
+ border-radius: 25px;}
+ 
+ @keyframes taille {from {width: 50px;}
+	to:{width 300px;}
+}*/
+
+body {background-color: grey;}
+
+#tete {height: 100px; width: 100px; background-color: pink; border-radius: 100px; 
+transform: translate(200px, 0px)}
+
+#corp {height: 150px; width: 50px; background-color: green;
+ transform: translate(224px, -5px);
+ border-radius: 10px;}
+ 
+#brasd {animation-name: animbd;
+animation-duration: 0.5s;
+animation-delay: 0s;
+animation-iteration-count: infinite;}
+ 
+@keyframes animbd {from {height: 100px; width: 25px; background-color: green;
+    transform: translate(187px, -140px) rotate(25deg);
+    border-radius: 25px;}
+to {height: 100px; width: 25px; background-color: green;
+    transform: translate(187px, -200px) rotate(150deg);
+    border-radius: 25px;}}
+
+#brasg {animation-name: animbg;
+animation-duration: 0.5s;
+animation-delay: 0s;
+animation-iteration-count: infinite;}
+    
+@keyframes animbg {from {height: 100px; width: 25px; background-color: green;
+    transform: translate(285px, -240px) rotate(150deg);
+    border-radius: 25px;}
+to {height: 100px; width: 25px; background-color: green;
+    transform: translate(285px, -300px) rotate(25deg);
+    border-radius: 25px;}}
+
+ #jambed {animation-name: animjd;
+    animation-duration: 0.5s;
+    animation-delay: 0s;
+    animation-iteration-count: infinite;}
+ 
+@keyframes animjd {from {height: 150px; width: 35px; background-color: black;
+    transform: translate(210px, -220px) rotate(5deg);
+    border-radius: 25px;}
+to {height: 150px; width: 35px; background-color: pink;
+    transform: translate(130px, -300px) rotate(90deg);
+    border-radius: 25px;}}
+
+#jambeg {animation-name: animjg;
+        animation-duration: 0.5s;
+        animation-delay: 0s;
+        animation-iteration-count: infinite;}
+     
+@keyframes animjg {from {height: 150px; width: 35px; background-color: black;
+    transform: translate(260px, -370px) rotate(175deg);
+    border-radius: 25px;}
+to {height: 150px; width: 35px; background-color: pink;
+    transform: translate(330px, -450px) rotate(90deg);
+    border-radius: 25px;}}
+
+#shoesd {animation-name: shoesd;
+        animation-duration: 0.5s;
+        animation-delay: 0s;
+        animation-iteration-count: infinite;}
+     
+@keyframes shoesd {from {height: 15px; width: 50px; background-color: white;
+    transform: translate(190px, -385px);
+    border-radius: 25px;}
+to {height: 15px; width: 50px; background-color: pink;
+    transform: translate(50px, -540px) rotate(90deg);
+    border-radius: 25px;}}
+ 
+#shoesg {animation-name: shoesg;
+        animation-duration: 0.5s;
+        animation-delay: 0s;
+        animation-iteration-count: infinite;}
+     
+@keyframes shoesg {from {height: 15px; width: 50px; background-color: white;
+    transform: translate(265px, -400px);
+    border-radius: 25px;}
+to {height: 15px; width: 50px; background-color: pink;
+    transform: translate(390px, -555px) rotate(90deg);
+    border-radius: 25px;}}
+
+#bouled {animation-name: bouled;
+    animation-duration: 0.5s;
+    animation-delay: 0s;
+    animation-iteration-count: infinite;}
+ 
+@keyframes bouled {from {height: 0px; width: 0px;
+transform: translate(230px, -540px);}
+to {height: 20px; width: 20px; background-color: pink;
+transform: translate(230px, -540px) rotate(90deg);
+border-radius: 20px;}}
+
+#bouleg {animation-name: bouleg;
+    animation-duration: 0.5s;
+    animation-delay: 0s;
+    animation-iteration-count: infinite;}
+ 
+@keyframes bouleg {from {height: 0px; width: 0px;
+transform: translate(250px, -560px);}
+to {height: 20px; width: 20px; background-color: pink;
+transform: translate(250px, -560px) rotate(90deg);
+border-radius: 20px;}}
+
+#tige {animation-name: tige;
+    animation-duration: 0.5s;
+    animation-delay: 0s;
+    animation-iteration-count: infinite;}
+ 
+@keyframes tige {from {height: 0px; width: 0px;
+transform: translate(250px, -560px);}
+to {height: 50px; width: 20px; background-color: pink;
+transform: translate(240px, -570px);
+border-radius: 20px;}}
